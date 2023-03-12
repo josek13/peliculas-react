@@ -1,0 +1,30 @@
+.contenedorBusqueda {
+    display: flex;
+    justify-content: center;
+}
+
+.cajaBusqueda {
+    position: relative;
+}
+
+.inputBusqueda {
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px 30px 5px 10px;
+    font-size: 1.2rem;
+}
+
+.inputBusqueda:focus, .botonBusqueda:focus {
+    outline: none;
+    border: 2px solid #002cee;
+    box-shadow: 0 0 5px #1540ff;
+}
+
+.botonBusqueda {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    cursor: pointer;
+    height: 100%;
+    color: #202020;
+}

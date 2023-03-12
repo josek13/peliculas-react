@@ -1,0 +1,24 @@
+.contenedorDetalles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+
+.imagenPelicula {
+    border-radius: 10px;
+}
+
+.detallesPelicula {
+    font-size: 1.5rem;
+}
+
+.primerElemento {
+    margin-top: 0px;
+}

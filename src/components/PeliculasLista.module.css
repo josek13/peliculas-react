@@ -1,0 +1,21 @@
+.listaPeliculas {
+    list-style-type: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.listaPeliculas:hover {
+    opacity: 0.8;
+}
+
+.peliculaImagen {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+@media (max-width: 560px) {
+    .peliculaImagen {
+        width: 90%;
+        height: auto;
+    }
+}
